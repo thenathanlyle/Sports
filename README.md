@@ -52,4 +52,4 @@ The Airtable will be used to handle the games data in terms of players score and
 
 ## Priority Matrix
 
-![alt text](https://github.com/thenathanlyle/CryptoCradle/blob/2a15cebe167edee35935012874a04e9894015a89/Priority%20Matrix.png "Priority Matrix")
+![alt text](https://github.com/thenathanlyle/flappygame/blob/f37ca9cda847bf1a250edee8af63add5c885a4c2/Matrix.png "Priority Matrix")
