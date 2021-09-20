@@ -27,15 +27,15 @@ The Airtable will be used to handle the data in terms of votes, usernames, and o
 
 ## Project Schedule
 
-| Day             | Deliverable                                                                | Status     |
-| --------------- | -------------------------------------------------------------------------- | ---------- |
-| September 16-17 | Prompt / Wireframes / Priority Matrix / Timeframes/ Project Approval       | Complete   |
-| September 18-19 | ReadMe / Start Base Structure (HTML, CSS, etc.)                            | Complete   |
-| September 20    | Pseudocode / actual code                                                   | Incomplete |
-| September 21    | Game Logic should be done by now and now just working on other componenets | Incomplete |
-| September 22    | MVP                                                                        | Incomplete |
-| September 23    | Advanced CSS / Post MVP                                                    | Incomplete |
-| September 24    | Presentations                                                              | Incomplete |
+| Day             | Deliverable                                                          | Status     |
+| --------------- | -------------------------------------------------------------------- | ---------- |
+| September 16-17 | Prompt / Wireframes / Priority Matrix / Timeframes/ Project Approval | Complete   |
+| September 18-19 | ReadMe / Start Base Structure (HTML, CSS, etc.)                      | Complete   |
+| September 20    | Pseudocode / actual code                                             | Incomplete |
+| September 21    | Voting Section                                                       | Incomplete |
+| September 22    | Finish up Logic                                                      | Incomplete |
+| September 23    | MVP / Advanced CSS / Post MVP                                        | Incomplete |
+| September 24    | Presentations                                                        | Incomplete |
 
 ## Timeframes
 
