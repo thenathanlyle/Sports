@@ -2,54 +2,55 @@
 
 ## Project Description
 
-A game that represents the mechanics of the classic game Flappy Bird. The project will update leaderboards and make use of various componenets. Aiming for a good user experience while playing.
+This project will look at a week in the English Premier League and show user opinion on who will win based of the votes.
 
 ## Wireframes & Component Hieracrhy
 
-![alt text](https://github.com/thenathanlyle/flappygame/blob/102c7f58b76bcacc8415b55fe41f4020256b836d/Wireframe.png "Flappy Game")
+![alt text](https://github.com/thenathanlyle/Sports/blob/2b3d4aec7d9a3e00124d4bcc038de9a154fa823d/Wireframe.png "Wireframe")
+![alt text](https://github.com/thenathanlyle/Sports/blob/2b3d4aec7d9a3e00124d4bcc038de9a154fa823d/Components.png "Components")
 
 ### API
 
-The Airtable will be used to handle the games data in terms of players score and having that on the Leaderboard along with the date that it was registered.
+The Airtable will be used to handle the data in terms of votes, usernames, and opinions and also host team names, logos and match details.
 
 #### MVP
 
 - Have components working together
-- Having game logic operating at an MVP level, so it's at least playable
-- Leaderboard updating
+- Having a hard coded weekly matchs in the EPL for proof-of-concept
+- Responsive Design
 
 #### PostMVP
 
-- Add assets/sprints to the game for visuals
+- Improve CSS and user design
 - Add touchscreen support like for mobile
-- Add more to the leaderboard table like username,etc.
+- Add external API to update weekly schedule
 
 ## Project Schedule
 
-| Day             | Deliverable                                                                | Status      |
-| --------------- | -------------------------------------------------------------------------- | ----------- |
-| September 16-17 | Prompt / Wireframes / Priority Matrix / Timeframes/ Project Approval       | Complete    |
-| September 18-19 | ReadMe / Researching Game Logic / Start Base Structure (HTML, CSS, etc.)   | In-Progress |
-| September 20    | Pseudocode / actual code                                                   | Incomplete  |
-| September 21    | Game Logic should be done by now and now just working on other componenets | Incomplete  |
-| September 22    | MVP                                                                        | Incomplete  |
-| September 23    | Advanced CSS / Post MVP                                                    | Incomplete  |
-| September 24    | Presentations                                                              | Incomplete  |
+| Day             | Deliverable                                                                | Status     |
+| --------------- | -------------------------------------------------------------------------- | ---------- |
+| September 16-17 | Prompt / Wireframes / Priority Matrix / Timeframes/ Project Approval       | Complete   |
+| September 18-19 | ReadMe / Start Base Structure (HTML, CSS, etc.)                            | Complete   |
+| September 20    | Pseudocode / actual code                                                   | Incomplete |
+| September 21    | Game Logic should be done by now and now just working on other componenets | Incomplete |
+| September 22    | MVP                                                                        | Incomplete |
+| September 23    | Advanced CSS / Post MVP                                                    | Incomplete |
+| September 24    | Presentations                                                              | Incomplete |
 
 ## Timeframes
 
-| Component                            | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------------------ | :------: | :------------: | :-----------: | :---------: |
-| Basic File Setup structure           |    M     |      3hrs      |      hrs      |     hrs     |
-| Establish CSS classes & ids          |    H     |      4hrs      |      hrs      |     hrs     |
-| Have API data working                |    H     |      5hrs      |      hrs      |     hrs     |
-| Game Logic for player                |    H     |      7hrs      |      hrs      |     hrs     |
-| Game Logic for pipe generation       |    H     |      7hrs      |      hrs      |     hrs     |
-| Logic score to update to leaderboard |    H     |      7hrs      |      hrs      |     hrs     |
-| Responsive design across devices     |    M     |      2hrs      |      hrs      |     hrs     |
-| Additional testing and features      |    L     |      5hrs      |      hrs      |     hrs     |
-| Total                                |    H     |     40hrs      |      hrs      |     hrs     |
+| Component                        | Priority | Estimated Time | Time Invested | Actual Time |
+| -------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Basic File Setup structure       |    M     |      3hrs      |      hrs      |     hrs     |
+| Establish CSS classes & ids      |    H     |      4hrs      |      hrs      |     hrs     |
+| Have API data working            |    H     |      5hrs      |      hrs      |     hrs     |
+| Logic for username/opinions      |    H     |      7hrs      |      hrs      |     hrs     |
+| Logic for Voting                 |    H     |      7hrs      |      hrs      |     hrs     |
+| Logic for Matchup Page           |    H     |      7hrs      |      hrs      |     hrs     |
+| Responsive design across devices |    M     |      2hrs      |      hrs      |     hrs     |
+| Additional testing and features  |    L     |      5hrs      |      hrs      |     hrs     |
+| Total                            |    H     |     40hrs      |      hrs      |     hrs     |
 
 ## Priority Matrix
 
-![alt text](https://github.com/thenathanlyle/flappygame/blob/f37ca9cda847bf1a250edee8af63add5c885a4c2/Matrix.png "Priority Matrix")
+![alt text](https://github.com/thenathanlyle/Sports/blob/2b3d4aec7d9a3e00124d4bcc038de9a154fa823d/Matrix.png "Priority Matrix")
