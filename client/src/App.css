@@ -8,8 +8,16 @@
 
 .Logo {
   font-family: "Russo One", sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   display: inline-block;
+}
+.Title {
+  color: #000000;
+  text-decoration: none;
+}
+span {
+  color: #ff0000;
+  text-decoration: none;
 }
 
 .Menu {
@@ -18,5 +26,5 @@
 }
 
 nav {
-  background-color: skyblue;
+  background-color: #c6e2ff;
 }

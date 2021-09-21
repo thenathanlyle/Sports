@@ -6,7 +6,9 @@ export default function Navbar() {
         <nav>
           <div className="Logo">
             <Link to="/Fixtures">
-              <h1 className="Title">SportsGrid</h1>
+              <h1 className="Title">
+                Sports<span>Grid</span>
+              </h1>
             </Link>
           </div>
           <div className="Menu">
