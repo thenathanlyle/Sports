@@ -28,3 +28,23 @@ span {
 nav {
   background-color: #c6e2ff;
 }
+
+.TeamA {
+  flex-direction: rows;
+  width: 65%;
+  position: absolute;
+}
+
+.TeamB {
+  flex-direction: rows;
+  width: 140%;
+  position: absolute;
+}
+
+footer {
+  background-color: #e6e6fa;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
