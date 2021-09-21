@@ -31,14 +31,14 @@ nav {
 
 .TeamA {
   flex-direction: rows;
-  width: 65%;
   position: absolute;
+  margin-left: 25vw;
 }
 
 .TeamB {
   flex-direction: rows;
-  width: 140%;
   position: absolute;
+  margin-left: 65vw;
 }
 
 footer {
