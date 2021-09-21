@@ -13,7 +13,7 @@ export default function Navbar() {
           </div>
           <div className="Menu">
             <Link to="/Spotlight">
-              <h1 className="spotlightMatch">Spotlight Match</h1>
+              <h1 className="spotlightMatch">Match of the Week</h1>
             </Link>
             <Link to="/Fixtures">
               <h1 className="Fixtures">Fixtures</h1>

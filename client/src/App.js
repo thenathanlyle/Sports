@@ -11,6 +11,9 @@ function App() {
       <div>
         <Navbar />
       </div>
+      <Route exact path="/">
+        <Fixtures />
+      </Route>
       <Route exact path="/Fixtures">
         <Fixtures />
       </Route>
