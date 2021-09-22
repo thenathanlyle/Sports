@@ -2,22 +2,20 @@
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .Logo {
   font-family: "Russo One", sans-serif;
   font-size: 40px;
   display: inline-block;
 }
 .Title {
+  display: inline-block;
   color: #000000;
   text-decoration: none;
   margin-bottom: 0px;
 }
 span {
-  color: #ff0000;
+  display: inline-block;
+  color: #4caf50;
   text-decoration: none;
 }
 
@@ -26,25 +24,59 @@ span {
   justify-content: space-evenly;
 }
 
-nav {
-  background-color: #c6e2ff;
+.spotlightMatch {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.spotlightMatch:hover {
+  background-color: #3e8e41;
+}
+
+.Fixtures {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.Fixtures:hover {
+  background-color: #3e8e41;
+}
+
+header {
+  background-color: #e9ffdb;
+  width: 100%;
+  top: 0;
 }
 
 .TeamA {
-  flex-direction: rows;
-  position: absolute;
-  margin-left: 25vw;
 }
 
 .TeamB {
-  flex-direction: rows;
-  position: absolute;
-  margin-left: 65vw;
+}
+
+.User {
+}
+
+.CommentPost {
 }
 
 footer {
   background-color: #e6e6fa;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;

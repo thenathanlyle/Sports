@@ -13,7 +13,7 @@ export default function Fixtures() {
   }, []);
 
   return (
-    <div>
+    <div className="Teams">
       <h3>Upcoming Fixtures: Week 6</h3>
       <div className="TeamA">
         {games.map((fixture) => {
