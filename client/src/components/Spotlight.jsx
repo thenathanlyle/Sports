@@ -40,6 +40,11 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
+      {/* <div>
+        {opinions.map((opinions) => {
+          return <h3>{opinions.fields.username}</h3>;
+        })}
+      </div> */}
     </div>
   );
 }
