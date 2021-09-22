@@ -51,16 +51,20 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
-      {/* <div>
-        {returnComment.map((Opinions) => {
-          return <h3>{Opinions.fields.username}</h3>;
-        })}
-      </div>
-      <div>
-        {returnComment.map((Opinions) => {
-          return <p>{Opinions.fields.comment}</p>;
-        })}
-      </div> */}
+      {returnComment ? (
+        <div>
+          <div className="User">
+            {returnComment.map((Opinions) => {
+              return <h3>{Opinions.fields.username}</h3>;
+            })}
+          </div>
+          <div className="CommentPost">
+            {returnComment.map((Opinions) => {
+              return <p>{Opinions.fields.comment}</p>;
+            })}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
