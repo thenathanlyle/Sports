@@ -26,8 +26,9 @@ export default function Spotlight() {
       username,
       comment,
     };
-    const res = await axios.post(URLForm, { fields }, config);
-    history.push(`/Opinions"${res.data.id}`);
+    await axios.post(URLForm, { fields }, config);
+    history.push(`/Spotlight`);
+    window.location.reload();
   };
 
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function Spotlight() {
 
   return (
     <div>
-      <h3>Test Comment</h3>
+      <h3>Comment Section</h3>
       <Form
         username={username}
         setUsername={setUsername}
@@ -50,7 +51,7 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
-      <div>
+      {/* <div>
         {returnComment.map((Opinions) => {
           return <h3>{Opinions.fields.username}</h3>;
         })}
@@ -59,7 +60,7 @@ export default function Spotlight() {
         {returnComment.map((Opinions) => {
           return <p>{Opinions.fields.comment}</p>;
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
