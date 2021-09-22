@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import Form from "./Form";
 import axios from "axios";
@@ -16,6 +16,7 @@ const config = {
 export default function Spotlight() {
   const [username, setUsername] = useState("");
   const [comment, setComment] = useState("");
+  const [returnComment, setReturnComment] = useState("");
 
   const history = useHistory();
 
@@ -29,6 +30,15 @@ export default function Spotlight() {
     history.push(`/Opinions"${res.data.id}`);
   };
 
+  useEffect(() => {
+    const fetchComments = async () => {
+      const res = await axios.get(URLForm, config);
+      setReturnComment(res.data.records);
+      return res.data.records;
+    };
+    fetchComments();
+  }, []);
+
   return (
     <div>
       <h3>Test Comment</h3>
@@ -40,6 +50,16 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
+      <div>
+        {returnComment.map((Opinions) => {
+          return <h3>{Opinions.fields.username}</h3>;
+        })}
+      </div>
+      <div>
+        {returnComment.map((Opinions) => {
+          return <p>{Opinions.fields.comment}</p>;
+        })}
+      </div>
     </div>
   );
 }
