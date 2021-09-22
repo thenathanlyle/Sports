@@ -15,7 +15,7 @@
 }
 span {
   display: inline-block;
-  color: #4caf50;
+  color: #228b22;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ span {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: #4caf50;
+  background-color: #228b22;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
@@ -47,7 +47,7 @@ span {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: #4caf50;
+  background-color: #228b22;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
