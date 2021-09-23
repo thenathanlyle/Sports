@@ -18,12 +18,32 @@ export default function Fixtures() {
       <div className="Teams">
         <div className="TeamA">
           {games.map((fixture) => {
-            return <h3>{fixture.fields.teamA}</h3>;
+            return (
+              <div>
+                <h3>{fixture.fields.teamA}</h3>
+                <img
+                  src={fixture.fields.teamALogo}
+                  height={90}
+                  width={90}
+                  alt="image"
+                ></img>
+              </div>
+            );
           })}
         </div>
         <div className="TeamB">
           {games.map((fixture) => {
-            return <h3>{fixture.fields.teamB}</h3>;
+            return (
+              <div>
+                <h3>{fixture.fields.teamB}</h3>
+                <img
+                  src={fixture.fields.teamBLogo}
+                  height={90}
+                  width={90}
+                  alt="image"
+                ></img>
+              </div>
+            );
           })}
         </div>
       </div>
