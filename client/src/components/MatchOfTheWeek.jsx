@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { fetchFixtures } from "../services";
 
-export default function Fixtures() {
+export default function MatchOfTheWeek() {
   const [games, setGames] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,6 @@ export default function Fixtures() {
 
   return (
     <div className="Teams">
-      <h3>Upcoming Fixtures: Week 6</h3>
       {games.map((fixture) => {
         return (
           <div className="TeamRows">

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import Form from "./Form";
 import axios from "axios";
+import MatchOfTheWeek from "./MatchOfTheWeek";
 
 const airtableBase = process.env.REACT_APP_AIRTABLE_BASE;
 const airtableKey = process.env.REACT_APP_AIRTABLE_KEY;
@@ -42,6 +43,7 @@ export default function Spotlight() {
 
   return (
     <div>
+      <MatchOfTheWeek />
       <h3>Comment Section</h3>
       <Form
         username={username}

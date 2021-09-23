@@ -64,8 +64,19 @@ header {
 }
 
 .Teams {
-  display: flex;
-  justify-content: space-evenly;
+}
+
+.TeamRows {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: 2px solid #12130f;
+  text-align: center;
+  align-items: center;
+}
+
+.TeamRows img {
+  width: 90px;
+  padding-left: 10%;
 }
 
 .User {
