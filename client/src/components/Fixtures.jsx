@@ -13,17 +13,19 @@ export default function Fixtures() {
   }, []);
 
   return (
-    <div className="Teams">
+    <div className="TeamHeader">
       <h3>Upcoming Fixtures: Week 6</h3>
-      <div className="TeamA">
-        {games.map((fixture) => {
-          return <h3>{fixture.fields.teamA}</h3>;
-        })}
-      </div>
-      <div className="TeamB">
-        {games.map((fixture) => {
-          return <h3>{fixture.fields.teamB}</h3>;
-        })}
+      <div className="Teams">
+        <div className="TeamA">
+          {games.map((fixture) => {
+            return <h3>{fixture.fields.teamA}</h3>;
+          })}
+        </div>
+        <div className="TeamB">
+          {games.map((fixture) => {
+            return <h3>{fixture.fields.teamB}</h3>;
+          })}
+        </div>
       </div>
     </div>
   );
