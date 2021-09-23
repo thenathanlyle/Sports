@@ -74,9 +74,15 @@ header {
   align-items: center;
 }
 
-.TeamRows img {
-  width: 90px;
-  padding-left: 10%;
+.MatchButton {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #228b22;
+  border-radius: 15px;
 }
 
 .User {
