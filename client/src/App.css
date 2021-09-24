@@ -74,6 +74,11 @@ header {
   align-items: center;
 }
 
+.TeamLinks {
+  text-decoration: none;
+  color: #000000;
+}
+
 .MatchButton {
   display: inline-block;
   padding: 10px 15px;

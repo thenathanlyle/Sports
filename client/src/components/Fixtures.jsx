@@ -26,11 +26,15 @@ export default function Fixtures() {
                 alt="image"
               ></img>
             </a>
-            <h3>{fixture.fields.teamA}</h3>
+            <a className="TeamLinks" href={`${fixture.fields.teamALink}`}>
+              <h3>{fixture.fields.teamA}</h3>
+            </a>
             <a href={`${fixture.fields.matchDetails}`}>
               <h4 className="MatchButton">Match Details</h4>
             </a>
-            <h3>{fixture.fields.teamB}</h3>{" "}
+            <a className="TeamLinks" href={`${fixture.fields.teamBLink}`}>
+              <h3>{fixture.fields.teamB}</h3>{" "}
+            </a>
             <a href={`${fixture.fields.teamBLink}`}>
               <img
                 src={fixture.fields.teamBLogo}
