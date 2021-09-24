@@ -13,7 +13,7 @@ export default function MatchOfTheWeek() {
 
   return (
     <div className="Teams">
-      {games.map((fixture, index) => {
+      {games.splice(0, 1).map((fixture, index) => {
         return (
           <div className="TeamRows" key={index}>
             <a href={`${fixture.fields.teamALink}`}>

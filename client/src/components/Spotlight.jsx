@@ -41,6 +41,10 @@ export default function Spotlight() {
     fetchComments();
   }, []);
 
+  function checkTeam(team) {
+    return team === "Chelsea";
+  }
+
   return (
     <div>
       <MatchOfTheWeek />
