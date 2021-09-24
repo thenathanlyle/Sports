@@ -6,6 +6,7 @@ export default function Form(props) {
         <input
           type="text"
           value={props.username}
+          maxLength="50"
           onChange={(e) => props.setUsername(e.target.value)}
         />
       </label>
@@ -15,11 +16,12 @@ export default function Form(props) {
         <input
           type="text"
           value={props.comment}
+          maxLength="50"
           onChange={(e) => props.setComment(e.target.value)}
         />
       </label>
       <br />
-      <button>{props.type} Comment</button>
+      <button className="submitButton">{props.type} Comment</button>
     </form>
   );
 }

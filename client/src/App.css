@@ -96,6 +96,35 @@ header {
 .CommentPost {
 }
 
+.CommentRows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid #12130f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+form {
+  justify-content: center;
+}
+
+label {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #228b22;
+  border-radius: 15px;
+}
+
 .Footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

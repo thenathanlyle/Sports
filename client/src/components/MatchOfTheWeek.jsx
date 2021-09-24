@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { fetchFixtures } from "../services";
 
 export default function MatchOfTheWeek() {
@@ -14,9 +13,9 @@ export default function MatchOfTheWeek() {
 
   return (
     <div className="Teams">
-      {games.map((fixture) => {
+      {games.map((fixture, index) => {
         return (
-          <div className="TeamRows">
+          <div className="TeamRows" key={index}>
             <a href={`${fixture.fields.teamALink}`}>
               <img
                 src={fixture.fields.teamALogo}

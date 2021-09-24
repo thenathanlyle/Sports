@@ -43,7 +43,7 @@ export default function Spotlight() {
 
   return (
     <div>
-      {/* <MatchOfTheWeek /> */}
+      <MatchOfTheWeek />
       <h3>Comment Section</h3>
       <Form
         username={username}
@@ -53,16 +53,17 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
+      <h3>Discuss the Match!</h3>
       {returnComment ? (
-        <div>
+        <div className="CommentRows">
           <div className="User">
-            {returnComment.map((Opinions) => {
-              return <h3>{Opinions.fields.username}</h3>;
+            {returnComment.map((Opinions, index) => {
+              return <h3 key={index}>{Opinions.fields.username}</h3>;
             })}
           </div>
           <div className="CommentPost">
-            {returnComment.map((Opinions) => {
-              return <p>{Opinions.fields.comment}</p>;
+            {returnComment.map((Opinions, index) => {
+              return <p key={index}>{Opinions.fields.comment}</p>;
             })}
           </div>
         </div>
