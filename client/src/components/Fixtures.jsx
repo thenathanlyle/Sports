@@ -19,9 +19,8 @@ export default function Fixtures() {
           <div className="TeamRows" key={index}>
             <a href={`${fixture.fields.teamALink}`}>
               <img
+                className="imageTeam"
                 src={fixture.fields.teamALogo}
-                height={90}
-                width={90}
                 alt="image"
               ></img>
             </a>
@@ -36,9 +35,8 @@ export default function Fixtures() {
             </a>
             <a href={`${fixture.fields.teamBLink}`}>
               <img
+                className="imageTeam"
                 src={fixture.fields.teamBLogo}
-                height={90}
-                width={90}
                 alt="image"
               ></img>
             </a>

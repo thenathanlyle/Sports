@@ -79,6 +79,11 @@ header {
   color: #000000;
 }
 
+.imageTeam {
+  height: 90px;
+  width: 90px;
+}
+
 .MatchButton {
   display: inline-block;
   padding: 10px 15px;
@@ -128,6 +133,7 @@ label {
 .Footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  position: sticky;
   bottom: 0;
   background-color: #e6e6fa;
   color: #000000;
@@ -142,4 +148,39 @@ label {
 .Footer img {
   width: 20px;
   padding: 0 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .Logo {
+    font-size: 20px;
+  }
+  .spotlightMatch {
+    padding: 10px 15px;
+    font-size: 7px;
+  }
+  .Fixtures {
+    padding: 10px 15px;
+    font-size: 7px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .imageTeam {
+    height: 45px;
+    width: 45px;
+  }
+  .MatchButton {
+    font-size: 7px;
+  }
+  .submitButton {
+    font-size: 7px;
+  }
+
+  .spotlightMatch {
+    box-shadow: none;
+  }
+
+  .Fixtures {
+    box-shadow: none;
+  }
 }

@@ -41,14 +41,10 @@ export default function Spotlight() {
     fetchComments();
   }, []);
 
-  function checkTeam(team) {
-    return team === "Chelsea";
-  }
-
   return (
     <div>
       <MatchOfTheWeek />
-      <h3>Comment Section</h3>
+      <h3>Discuss the Match!</h3>
       <Form
         username={username}
         setUsername={setUsername}
@@ -57,7 +53,7 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
-      <h3>Discuss the Match!</h3>
+      <h3>Comment Section</h3>
       {returnComment ? (
         <div className="CommentRows">
           <div className="User">
