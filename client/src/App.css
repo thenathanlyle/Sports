@@ -183,4 +183,10 @@ label {
   .Fixtures {
     box-shadow: none;
   }
+  label {
+    font-size: 10px;
+  }
+  .CommentPost {
+    font-size: 10px;
+  }
 }
