@@ -94,7 +94,6 @@ header {
 .Footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  position: fixed;
   bottom: 0;
   background-color: #e6e6fa;
   color: #000000;

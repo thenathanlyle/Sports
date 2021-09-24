@@ -43,7 +43,7 @@ export default function Spotlight() {
 
   return (
     <div>
-      <MatchOfTheWeek />
+      {/* <MatchOfTheWeek /> */}
       <h3>Comment Section</h3>
       <Form
         username={username}
