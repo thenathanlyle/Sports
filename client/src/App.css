@@ -98,13 +98,14 @@ header {
 .User {
 }
 
-.CommentPost {
+.CommentHeader {
+  border-top: 2px solid #12130f;
 }
 
 .CommentRows {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 2px solid #12130f;
+
   justify-content: center;
   text-align: center;
   align-items: center;

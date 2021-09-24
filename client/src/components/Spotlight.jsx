@@ -53,7 +53,7 @@ export default function Spotlight() {
         handleSubmit={handleSubmit}
         type={"Submit"}
       />
-      <h3>Comment Section</h3>
+      <h3 className="CommentHeader">Comment Section</h3>
       {returnComment ? (
         <div className="CommentRows">
           <div className="User">
