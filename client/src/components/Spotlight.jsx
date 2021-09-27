@@ -43,7 +43,6 @@ export default function Spotlight() {
 
   return (
     <div>
-      <MatchOfTheWeek />
       <h3>Discuss the Match!</h3>
       <Form
         username={username}
