@@ -58,7 +58,7 @@ export default function Spotlight() {
         <div className="CommentRows">
           <div className="User">
             {returnComment.map((Opinions, index) => {
-              return <h3 key={index}>{Opinions.fields.username}</h3>;
+              return <p key={index}>{Opinions.fields.username}</p>;
             })}
           </div>
           <div className="CommentPost">

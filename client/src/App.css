@@ -1,3 +1,7 @@
+* {
+  /* font-family: "helvetica", "Inter"; */
+}
+
 .App {
   text-align: center;
 }
@@ -96,13 +100,17 @@ header {
   border-top: 2px solid #12130f;
 }
 
+.User {
+  font-weight: bold;
+}
+
 .CommentRows {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   text-align: center;
   align-items: center;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 form {
