@@ -17,7 +17,13 @@ export default function Footer() {
           />
         </a>
       </div>
-      © Nathan Lyle
+      <a
+        className="footerCopyright"
+        href="https://github.com/thenathanlyle"
+        target="_blank"
+      >
+        © Nathan Lyle
+      </a>
     </div>
   );
 }
