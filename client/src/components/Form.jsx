@@ -4,6 +4,8 @@ export default function Form(props) {
       <label>
         Username:
         <input
+          className="textInput"
+          placeholder="Enter a Username"
           type="text"
           value={props.username}
           maxLength="50"
@@ -14,6 +16,8 @@ export default function Form(props) {
       <label>
         Comment:
         <input
+          className="textInput"
+          placeholder="Type in a Comment"
           type="text"
           value={props.comment}
           maxLength="50"

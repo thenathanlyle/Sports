@@ -63,9 +63,6 @@ header {
   border-bottom: 2px solid #12130f;
 }
 
-.Teams {
-}
-
 .TeamRows {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -95,9 +92,6 @@ header {
   border-radius: 15px;
 }
 
-.User {
-}
-
 .CommentHeader {
   border-top: 2px solid #12130f;
 }
@@ -118,6 +112,10 @@ form {
 label {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.textInput {
+  border: 3px solid #228b22;
 }
 
 .submitButton {
@@ -173,8 +171,13 @@ label {
   .MatchButton {
     font-size: 7px;
   }
+
   .submitButton {
     font-size: 7px;
+  }
+
+  .textInput {
+    border: 3px solid #228b22;
   }
 
   .spotlightMatch {
