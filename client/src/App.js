@@ -20,9 +20,7 @@ function App() {
       <Route exact path="/Spotlight">
         <Spotlight />
       </Route>
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
